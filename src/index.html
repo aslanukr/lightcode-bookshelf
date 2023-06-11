@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse and shop for best books out there"
+    />
+    <title>Bookshelf</title>
+    <!-- Favicon -->
+    <include src="./partials/components/favicon.html"></include>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <!-- JS -->
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <body class="page">
+    <!-- Header -->
+    <include src="./partials/layout/header/header.html"></include>
+
+    <!--Page -->
+    <div class="container page-container">
+      <!-- Intersection observer target for scroll-up button -->
+      <div class="to-top-target"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!--  -->
+        <!-- Book category selection menu -->
+        <include src="./partials/layout/sidebar/categories.html"></include>
+
+        <!-- Support Ukraine -->
+        <include src="./partials/layout/sidebar/support.html"></include>
+      </aside>
+
+      <!-- Main -->
+      <main class="content">
+        <!-- Page content -->
+        <include src="./partials/layout/home-content.html"></include>
+
+        <!-- Modal -->
+        <include src="./partials/modals/modal.html"></include>
+
+        <!-- Back to top button -->
+        <include src="./partials/components/back-to-top.html"></include>
+
+        <!-- burger-menu-->
+        <include src="./partials/layout/header/burger-menu.html"></include>
+      </main>
+    </div>
+  </body>
+</html>
