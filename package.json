@@ -5,7 +5,7 @@
   "homepage": "https://aslanukr.github.io/lightcode-bookshelf",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /bookshelf/"
+    "build": "parcel build src/*.html --public-url /lightcode-bookshelf/"
   },
   "repository": {
     "type": "git",
